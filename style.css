@@ -1,0 +1,125 @@
+html {
+  height: 100%;
+}
+body {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.719),
+    rgba(164, 66, 255, 0.76)
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+  height: 100%;
+}
+hr {
+  color: rgba(0, 0, 0, 0);
+}
+/*I'm finding out that the hr colour is unchangeable??*/
+.pic1 {
+  width: 200px;
+  border-radius: 15%;
+}
+
+.prof {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.part {
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 10%;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.one {
+  width: 70%;
+  left: 10;
+}
+
+.two {
+  border-left: 2px solid white;
+  top: 15%;
+  width: 30%;
+  right: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  /*okay so padding in a div is when you have a section and put some layer on it so at least there's some space between the two invisible boxes*/
+}
+
+.playlists {
+  padding-left: 15px;
+  padding-right: 25px;
+  padding-bottom: 3px;
+  border-radius: 20px;
+  float: left;
+  margin-right: 20px;
+}
+
+.second {
+  background-color: rgba(253, 253, 253, 0.856);
+  color: black;
+  width: 400px;
+  height: 230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 3px;
+  border-radius: 20px;
+  text-align: left;
+
+  /*Unless this is square using percentage won't make the corners look nicely rounded
+  No for real, it was not! cute!*/
+}
+
+.ctr {
+  position: absolute;
+  left: 15%;
+  transform: (-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.profiling {
+  right: 10%;
+  position: absolute;
+  width: 100%;
+  padding-left: 30px;
+  margin: 5%;
+}
+
+.lining {
+  padding-top: 0%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cover {
+  width: 180px;
+  height: 180px;
+  border-radius: 20px;
+  float: left;
+}
+
+.descriptor {
+  float: left;
+  width: 45%;
+  height: 45%;
+  padding: 5px;
+  padding-right: 0px;
+}
+
+.text {
+  position: relative;
+  padding-left: 200px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.shifted {
+  margin-left: 40px;
+}
